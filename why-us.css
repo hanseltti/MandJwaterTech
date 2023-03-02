@@ -1,0 +1,34 @@
+
+
+.text__color__dark__blue{
+    color: #191970;
+}
+
+.home-grid-container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 40px 1.5%;
+    gap: 1%;
+    justify-content: center;
+}
+
+.home-grid-item{
+    text-align: center;
+    padding: 3%;
+    background-color: whitesmoke;
+    transition: .5s;
+}
+
+.home-grid-item:hover{
+    box-shadow: 10px 10px 10px #9da2ab;
+}
+
+@media only screen and (max-width: 768px) {
+    .home-grid-container{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        
+    }
+
+}

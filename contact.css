@@ -1,0 +1,136 @@
+/* contact us */
+.contact-us-background-img{
+    width: 100%;
+    height: 50vh;
+    margin: 65px 0;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)), url(img/womanDialingCellIphone224.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.centeringH2onDiv{
+    height: 100%;
+    font-size: 2em;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-us-background-img{
+        width: 100%;
+        height: 50vh;
+        margin: 65px 0;
+        background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)), url(img/womanDialingCellIphone224.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll;
+    }
+}
+
+.contact-us-form-information-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 10%;
+}
+
+.contact-us-section-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us-section-form input{
+    margin-bottom: 25px;
+}
+
+.contact-us-send-button{
+    margin-bottom: 25px;
+    height: 55px;
+    font-family: squada;
+    letter-spacing: 5px;
+    font-size: 20px;
+    background-color: white;
+    transition: 1s;
+}
+
+.contact-us-send-button:hover{
+    background-color: lightgrey;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-us-send-button{
+        margin-bottom: 55px;
+        height: 55px;
+        font-family: squada;
+        letter-spacing: 5px;
+        font-size: 20px;
+        background-color: lightgrey;
+    }
+    
+}
+
+.contact-us-text-information{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-us-form-information-main{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 10%;
+    }
+}
+
+.iconCell::before{
+    content: "☎";
+}
+
+.emailIcon::before{
+    content: "📫";
+}
+
+/*end of contact us */
+
+/* google maps section */
+.google-maps-section{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(234, 233, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*end of google maps section */
+
+/* social icons here */
+.home-social-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons-header{
+    letter-spacing: 5px;
+}
+
+.home-social-icon-item{
+    margin:44px;
+    
+}
+
+.home-social-icon-item:hover{
+    color: #00a7e1;
+}
+
+@media screen and (max-width: 425px) {
+    .home-social-icon-item{
+        margin: 24px;
+    }
+}
+
+/* social icons end here */
